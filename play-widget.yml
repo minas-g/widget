@@ -8,4 +8,4 @@
   tasks:
     - name: Show date
       debug:
-        Var: ansible_date_time.date
+        var: ansible_date_time.date
