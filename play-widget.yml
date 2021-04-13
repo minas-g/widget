@@ -6,6 +6,6 @@
   gather_facts: yes
 
   tasks:
-    - name: Show Ansible date
+    - name: Show date
       debug:
         var: ansible_date_time.date
